@@ -1,8 +1,8 @@
+
 # Password Generator (C++)
 
 A simple command-line password generator written in C++. This tool allows users to customize their passwords by choosing the length and the types of characters to include (uppercase, lowercase, numbers, and special characters).
 
----
 
 ## 🚀 Features
 
@@ -14,15 +14,8 @@ A simple command-line password generator written in C++. This tool allows users 
   - Include or exclude special characters
 - **Random Generation:** Each password is randomly generated based on your selections.
 - **Input Validation:** Ensures all user inputs are valid and prompts again if not.
+- **No external dependencies:** Entirely written in plain C++
 
----
-
-## 🛠 Technologies Used
-
-- **C++** (Standard Library)
-- **No external dependencies**
-
----
 
 ## 📝 Usage
 
@@ -32,18 +25,24 @@ A simple command-line password generator written in C++. This tool allows users 
    ```
 
 2. **Run the program:**  
-   ```bash
-   ./password_generator
-   ```
+   - (Linux
 
-3. **Follow the prompts:**  
+     ```bash
+     ./password_generator # For Linux
+     ```
+   - (Windows)
+
+     ```bash
+     password_generatore # For Windows
+     ```
+
+4. **Follow the prompts:**  
    - Enter the desired password length.
    - Indicate (with "yes" or "no") whether to include each character type.
 
-4. **Get your password:**  
+5. **Get your password:**  
    The program will display your randomly generated password based on your preferences.
 
----
 
 ## ⚠️ Notes
 
